@@ -1,0 +1,16 @@
+{
+  "name": "france-travail-api",
+  "version": "1.0.0",
+  "description": "API proxy pour France Travail",
+  "main": "api/jobs.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
